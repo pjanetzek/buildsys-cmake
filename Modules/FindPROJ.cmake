@@ -8,7 +8,7 @@
 
 # Use pkg-config to get hints about paths
 find_package(PkgConfig)
-pkg_check_modules(PROJ_PKGCONF QUIET proj)
+pkg_check_modules(PROJ_PKGCONF proj)
 
 find_path(PROJ_INCLUDE_DIR
   NAMES proj.h
